@@ -7,3 +7,4 @@ element_at(X, [_|Tail], K) :-
     K1 is K - 1, 
     element_at(X, Tail, K1).
 
+//encontrar la manera recursiva para encontrar un elemento dado
